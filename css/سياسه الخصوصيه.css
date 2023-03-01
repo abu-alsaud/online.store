@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: #fcfcfc;
+}
+
+/*ناف بار رقم 1*/
+
+.navbar1 {
+    background: #333;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shosil-icon {
+    margin-right: 20px;
+    position: absolute;
+    left: 5px;
+}
+
+.shosil-icon a i:hover {
+    color: #d4d4d4;
+}
+
+.prof i {
+    margin-right: 30px;
+    background: white;
+    color: #333;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.prof p {
+    position: absolute;
+    top: 5px;
+    right: 70px;
+    color: white;
+}
+
+.navbar1 .shosil-icon i {
+    margin-left: 15px;
+    font-size: 18px;
+    color: white;
+}
+
+/*نهايت ناف بار رقم 1*/
+
+
+/*ناف بار رقم 2*/
+
+nav {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
+}
+
+nav .logo img {
+    height: 30px;
+    margin-left: 80px;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+}
+
+nav .menu li {
+    margin-left: 30px;
+}
+
+nav .menu li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav .menu li a:hover {
+    border-bottom: 2px solid #333;
+    
+}
+
+nav .search {
+    display: flex;
+    align-items: center;
+}
+
+nav .search input[type="text"] {
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 220px;
+    height: 35px;
+}
+
+nav .search button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 6px 13px;
+    margin-left: 30px;
+    height: 35px;
+    position: relative;
+    left: 3px;
+    border-start-end-radius: 15px;
+    border-end-end-radius: 15px;
+    cursor: pointer;
+}
+
+.search .fa-solid {
+    font-size: 23px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    color: #333;
+}
+
+.search p {
+    background: red;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: relative;
+    left: 4px;
+    bottom: 26px;
+    border: 1px solid white;
+}
+
+/*نهايت ناف بار رقم 2*/
+
+
+
+
+
+
+
+
+
+
+/* بدايه شريط الاخبار  */
+
+.news-ticker {
+    background-color: #333;
+    height: 35px;
+    overflow: hidden;
+    border-bottom: 1px solid white;
+    position: relative;
+    text-align: center;
+  }
+  
+  .news-ticker ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: ticker 20s linear infinite;
+  }
+  
+  .news-ticker li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  .news-ticker li:last-child {
+    margin-right: 0;
+  }
+  
+  .news-ticker a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @keyframes ticker {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+/* نهايه شريط الاخبار  */
+
+/*بدايه الفوتر */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+    background: #333;
+}
+
+footer p , footer a{
+    color: white;
+}
+
+.foot-shoicon a {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.foot-shoicon i{
+    color: white;
+}
+/*نهايه الفوتر */
+
+.footer2 {
+    background: #333;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: #a7a7a7 1px solid;
+}
+
+.links-ham {
+    margin: 10px 50px;
+}
+
+.links-ham a{
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.links-ham h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 25px;
+    color: white;
+}
+
+.links-ham hr {
+    height: 1px;
+    border: none;
+    width: 125%;
+    text-align: center;
+    background: #a7a7a7;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+    /*بدايه قصم سياسه الخصوصيه */
+    
+.privacy-policy {
+    margin: 22px 5px;
+}
+
+.title h1 {
+    margin-bottom: 5px;
+}
+
+.title p{
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    margin-bottom: 5px;
+}
+
+.info p{
+    margin-bottom: 20px;
+}
+
+.info ul{
+    margin-bottom: 20px;
+}
+
+.info2 h2 {
+    margin-bottom: 5px;
+}
+
+.info2 p{
+    margin-bottom: 20px;
+}
+
+.info3 h2 {
+    margin-bottom: 5px;
+}
+
+.info3 p{
+    margin-bottom: 20px;
+}
+    /*نهايه قصم سياسه الخصوصيه */
+
+
